@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <androidx.drawerlayout.widget.DrawerLayout
+
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".MenuActivity"
+        tools:openDrawer="start">
+
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/activity_prueba_drawer"
+            app:headerLayout="@layout/drawer_header"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/imageUser"
+                    android:layout_width="@dimen/icon_user"
+                    android:layout_height="@dimen/icon_user"
+                    android:layout_marginTop="@dimen/drawerHeader"
+                    android:background="@drawable/ic_person_white"
+                    />
+
+                <TextView
+                    android:id="@+id/nombre_usuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/name_user_drawer"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.navigation.NavigationView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container_fragments"
+            tools:context=".MenuActivity">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottombar_nav"
+                />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottombar_nav"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|end"
+                app:menu="@menu/buttombar_tabs"
+                app:itemIconTint="@color/white"
+                app:itemTextColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                />
+
+        </RelativeLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>
+
+

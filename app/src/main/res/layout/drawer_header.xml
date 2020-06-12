@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorPrimary"
+    android:padding="24dp"
+    android:paddingTop="15dp"
+
+    tools:context=".MenuActivity"
+    >
+    <LinearLayout
+       android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/visit_us"
+            android:textColor="@color/white"
+            android:textSize="@dimen/name_webpage"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MotoService</string>
+    <string name="hint_email">Enter your email </string>
+    <string name="hint_password">Password</string>
+    <string name="text_button_login">Enter</string>
+    <string name="text_button_facebook">Init with Facebook</string>
+    <string name="facebook_app_id">2853189168111715</string>
+    <string name="fb_login_protocol_scheme">fb2853189168111715</string>
+    <string name="hint_create_account">Create account Here </string>
+    <string name="visit_here_login">Here</string>
+    <string name="title_menu">Menu</string>
+    <string name="login_facebook_cancel">"The operation cancel"</string>
+    <string name="login_facebook_conexion">"Connection error ocurred."</string>
+    <string name="open">"open"</string>
+    <string name="close">"close"</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="visit_us">Visit us in: www.motoservice.com</string>
+    <string name="hint_name_user">Username</string>
+    <string name="hint_create_email_user">Create an email: example@gmail.com</string>
+    <string name="hint_create_pass1">Create a password</string>
+    <string name="hint_create_pass2">Repeat password</string>
+    <string name="text_button_account">Register</string>
+    <string name="text_schedule_card">Schedule: </string>
+
+
+
+</resources>

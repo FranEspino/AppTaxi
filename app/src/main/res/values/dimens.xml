@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="editText_hint_login">20sp</dimen>
+    <dimen name="pd_horizontal_login">32dp</dimen>
+    <dimen name="tp_button_login">15dp</dimen>
+    <dimen name="et_mt_login">8dp</dimen>
+    <dimen name="text_dimen_login">15dp</dimen>
+    <dimen name="size_text_login">16sp</dimen>
+    <dimen name="pl_link_login">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="drawerHeader">30dp</dimen>
+    <dimen name="name_user_drawer">16dp</dimen>
+    <dimen name="name_webpage">12dp</dimen>
+    <dimen name="icon_user">50dp</dimen>
+    <dimen name="top_visit_us">10dp</dimen>
+    <dimen name="size_account">11dp</dimen>
+    <dimen name="margin_button_fb">30dp</dimen>
+    <dimen name="padding_drawable">7dp</dimen>
+    <dimen name="height_cardview">200dp</dimen>
+    <dimen name="corners_cardview">4dp</dimen>
+    <dimen name="pd_horizontal_cardview">16dp</dimen>
+    <dimen name="size_text_driver">19dp</dimen>
+    <dimen name="mt_like_card">10dp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
+
+
+</resources>

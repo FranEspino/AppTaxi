@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_cardview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="20dp"
+    tools:context=".MenuActivity"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    cardView:cardCornerRadius="@dimen/corners_cardview">
+    <!-- Frame layout para que los elementos se superposicionen -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- centerCrop: la imagen no se estira ni se pixelea -->
+        <ImageView
+            android:id="@+id/photo_driver_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:background="@color/alpha_canal_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+         android:gravity="center_vertical"
+            android:layout_gravity="bottom"
+            android:paddingLeft="@dimen/pd_horizontal_cardview"
+            >
+            <TextView
+                android:id="@+id/username_driver_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marcelo Ramirez"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_text_driver"
+                android:textColor="@color/white"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/mt_like_card"
+                >
+                <TextView
+                    android:id="@+id/valoration_driver_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HORARIO: 9:00AM A 5:00PM "
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:layout_toRightOf="@id/valoration_driver_card"
+                    android:layout_width="90dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/white"
+                    android:text="Solicitar"
+                    android:textStyle="bold"
+                    android:onClick="goRequest"
+                    android:background="@color/colorPrimary"
+                    android:theme="@style/RaisedButtom"
+                    ></Button>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+

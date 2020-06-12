@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MotoService</string>
+    <string name="hint_email">Correo </string>
+    <string name="hint_password">Contaseña</string>
+    <string name="text_button_login">Entrar</string>
+    <string name="text_button_facebook">Iniciar con Facebook</string>
+    <string name="facebook_app_id">2853189168111715</string>
+    <string name="fb_login_protocol_scheme">fb2853189168111715</string>
+    <string name="hint_create_account">Crea una cuenta Aquí </string>
+    <string name="visit_here_login">Aquí</string>
+    <string name="title_menu">Menu</string>
+    <string name="login_facebook_cancel">"Se cancelo la operación"</string>
+    <string name="login_facebook_conexion">"Ocurrió un error de conexión"</string>
+    <string name="open">"open"</string>
+    <string name="close">"close"</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="visit_us">Visitanos en: www.motoservice.com</string>
+    <string name="hint_name_user">\Nombre de usuario</string>
+    <string name="hint_create_email_user">Crea un correo</string>
+    <string name="hint_create_pass1">Crea una contraseña</string>
+    <string name="hint_create_pass2">Repite tu contaseña</string>
+    <string name="text_button_account">Registrarse</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_schedule_card">Horario: </string>
+
+
+</resources>

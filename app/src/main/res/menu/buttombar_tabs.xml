@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/tab_services"
+        android:icon="@drawable/icon_dservices"
+        android:title="Servicios"
+
+        />
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/icon_home"
+        android:title="Principal"
+
+        />
+    <item
+        android:id="@+id/tab_drivers"
+        android:icon="@drawable/icon_driver"
+        android:title="Choferes"
+
+        />
+
+</menu>
